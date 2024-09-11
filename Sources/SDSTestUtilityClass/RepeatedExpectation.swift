@@ -30,7 +30,7 @@ import XCTest
 ///     // test result
 ///     XCTAssert.....
 /// ```
-public class RepeatedExpectation {
+public class RepeatedExpectation: Sendable {
     public var expectations: [XCTestExpectation] = []
     
     public init(_ num: Int) {
